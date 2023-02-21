@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gamli Nói>
+
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Favicon import -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Gamli Nói</title>
+</head>
+<body>
+
+    <main id="main-section">
+        <div id="home" class="section">
+            <h1>Gamli <span class="emphasis">Nói</span></h1>
+            <p>Námsmaður, hef áhuga á tölvum og er að læra forritun</p>
+            <a href="https://www.facebook.com" class="fa fa-facebook-square fa-4x icon-link " target="_blank"></a>
+        </div>
+
+        <div id="about" class="section">
+            <h2>Um mig</h2>
+            <img id="author-image" src="images/dummy.png" alt="Mynd af ritaranum">
+
+            <p>
+                Halló! Ég <span class="emphasis">heiti Gamli Nói</span> og er <span class="emphasis">22 ára</span> námsmaður í <span class="emphasis">Háskóla Íslands.
+                Ég hef áhuga á forritun</span> og er að læra hana. Ég er í körfubolta og forrita stundum. Ef að <span class="emphasis">þú</span> ert að leita að einhverjum 
+                til að búa til vefsíðu fyrir þig eða fyrirtækið þitt á sanngjörnu verði <span class="emphasis">ekki hika</span> við <span class="emphasis">að hafa samband við mig.</span>
+
+            </p>
+
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Hafa samband</h2>
+            <p>Endilega sendu mér línu á <span class="emphasis"><a href="mailto:laxi-hella@outlook.com">laxi-hella@outlook.com</a></span></p>
+        </div>
+
+    </main>
+
+    <!-- Menu -->
+    <button id="menu-button" class="fa fa-bars fa-4x" onclick="toggleMenu()"></button>
+
+    <div id="menu">
+        <button class="menu-item" onclick="showHomePage()">Heim</button>
+        <button class="menu-item" onclick="showAboutPage()">Um mig</button>
+        <button class="menu-item" onclick="showContactPage()">Hafa samband</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
